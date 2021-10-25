@@ -1,0 +1,10 @@
+#faça um programa que leia algo pelo teclado e escreva todas as informações possíveis sobre ele
+n = input('Digite algo: ')
+print(f'O tipo primitivo desse valor é: {type(n)}')
+print(f'Só tem espaço?: {n.isspace()}')
+print(f'É numérico?: {n.isnumeric()}')
+print(f'É alfabético?: {n.isalpha()}')
+print(f'É alfanumérico?: {n.isalnum()}')
+print(f'Está em maiúsculas?: {n.isupper()}')
+print(f'Está em minúsculas?: {n.islower()}')
+print(f'Está capitalizada?: {n.istitle()}')
