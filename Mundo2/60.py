@@ -5,7 +5,7 @@ print(f"{numero}! = {factorial(numero)}")
 
 # numero = int(input("Digite um numero\n"))
 # fatorial = numero
-# contador = numero -1
+# contador = numero - 1
 # print(f"{numero}! = {numero}", end="")
 # while contador != 0:
 #
